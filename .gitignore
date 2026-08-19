@@ -217,18 +217,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-
-# 重置暂存区，取消之前添加的缓存文件
-git reset
-
-# 添加gitignore文件
-git add .gitignore
-
-# 提交代码
-git commit -m "init: 添加gitignore，忽略vs缓存文件"
-
-# 重命名分支为main
-git branch -M main
-
-# 首次推送
-git push -u origin main
+.vs/
